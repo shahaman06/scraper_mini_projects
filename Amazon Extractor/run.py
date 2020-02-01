@@ -14,4 +14,4 @@ sel_img = [(image[i],name[i]) for i in range(len(image)) if len({"mdh","sampann"
 
 #download images to images/
 for i in sel_img:
-    urlretrieve(i[0],"images/"+i[1])
+    urlretrieve(i[0],"images/"+i[1]+".jpeg")
